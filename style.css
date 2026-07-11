@@ -100,6 +100,7 @@ nav {
   padding: 25px 35px;
   margin: auto;
   text-align: center;
+  margin-top: 25px;
 }
 
 .speak-gd {
@@ -143,3 +144,167 @@ nav {
   /* font-weight: 600; */
 }
 /* speakers section ends */
+
+/* pricing sec starts */
+
+.price-card1 {
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  text-align: left;
+  padding: 20px;
+}
+.price-card1 p {
+  color: rgb(122, 114, 114);
+  font-size: small;
+}
+.price-card2 {
+  background: #0f172a;
+  color: white;
+  border: 2px solid lightgray;
+  border-radius: 10px;
+  text-align: left;
+  padding: 20px;
+}
+.blue-p {
+  color: rgb(103, 103, 180);
+  font-size: small;
+}
+.gray-p {
+  color: rgb(122, 114, 114);
+  font-size: small;
+}
+.price-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  max-width: 1000px;
+  margin: auto;
+  /* padding: 20px 50px;
+  align-items: center; */
+}
+.price-sec {
+  padding: 50px 20px;
+  text-align: center;
+  /* margin-top: 10px; */
+}
+.card1-btn {
+  width: 100%;
+  padding: 8px 90px;
+  background-color: white;
+  color: rgb(72, 72, 208);
+  border: 1px solid rgb(72, 72, 208);
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  justify-content: center;
+  /* align-items: center; */
+}
+.card2-btn {
+  width: 100%;
+  padding: 8px 90px;
+  background-color: rgb(72, 72, 208);
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  align-items: center;
+}
+.card3-btn {
+  width: 100%;
+  padding: 8px 90px;
+  background-color: white;
+  color: rgb(86, 79, 79);
+  border: 1px solid rgb(71, 68, 68);
+  font-weight: bold;
+  font-size: 15px;
+  border-radius: 8px;
+  margin-top: 20px;
+  align-items: center;
+}
+hr {
+  color: rgb(217, 216, 216);
+  margin-top: 15px;
+}
+li {
+  margin-top: 15px;
+  color: rgb(122, 114, 114);
+}
+.price-card2 ul li {
+  color: rgb(194, 181, 181);
+}
+ul {
+  padding-left: 5px;
+  list-style: none;
+}
+.price-head {
+  margin: 40px;
+}
+.price-head h1 {
+  font-size: 2.5rem;
+}
+.price-head p {
+  margin: 5px;
+  color: gray;
+  font-size: small;
+}
+.dot {
+  display: inline-block;
+  width: 4px;
+  height: 4px;
+  background-color: rgb(71, 71, 197);
+  border-radius: 100%;
+  margin-right: 8px;
+}
+/* pricing sec ends */
+
+/* AI made secs starts */
+
+/* AI made secs ends */
+
+/* footer the end */
+.footer {
+  width: 100%;
+  height: 150px;
+  background-color: #0f172a;
+  border: 1px;
+  /* display: flex;  */
+  /* justify-content: space-evenly;
+    text-align: center; */
+}
+
+.fo {
+  margin-top: 50px;
+}
+
+.he {
+  color: white;
+  margin-top: 20px;
+}
+
+.hed {
+  margin-top: 8px;
+  color: white;
+}
+
+.fo-po {
+  display: flex;
+  gap: 50px;
+  /* display: flex; */
+  align-content: center;
+  margin-left: 350px;
+}
+
+.to {
+  margin-left: 120px;
+}
+
+.copy {
+  /* align-content:end;   
+    margin-left: auto; */
+  font-size: large;
+  color: white;
+  margin-top: 20px;
+}
