@@ -6,6 +6,7 @@ nav {
 * {
   margin: 0;
   padding: 0;
+  font-family: serif;
 }
 
 .container {
@@ -42,7 +43,7 @@ nav {
 /* banner section starts */
 .banner-container {
   position: relative;
-  width: 100vw;
+  /* width: 100vw; */
   height: 100vh;
   background-image:
     linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
@@ -70,8 +71,8 @@ nav {
 
 .banner-btn {
   margin-top: auto;
-  margin-bottom: 40px;
-  padding: 12px 24px;
+  margin-bottom: 50px;
+  padding: 12px 35px;
   background-color: blue;
   color: white;
   border: none;
@@ -89,7 +90,6 @@ nav {
   max-width: 700px;
   margin-bottom: 25px;
 }
-
 .head {
   margin-top: 120px;
 }
@@ -152,6 +152,7 @@ nav {
   border-radius: 10px;
   text-align: left;
   padding: 20px;
+  background-color: #eff6ff;
 }
 .price-card1 p {
   color: rgb(122, 114, 114);
@@ -261,7 +262,90 @@ ul {
 /* pricing sec ends */
 
 /* AI made secs starts */
+.venue-faq {
+  padding: 60px 20px;
+  background-color: #f8fafc; /* very light background */
+}
 
+.AI-sec-container {
+  display: flex;
+  gap: 20px;
+  max-width: 1000px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+/* Venue box */
+.venue-box {
+  flex: 1;
+  min-width: 280px;
+  background-color: #eff6ff; /* light blue background */
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #bfdbfe;
+}
+
+/* FAQ box */
+.faq-box {
+  flex: 1;
+  min-width: 280px;
+  background-color: #eff6ff;
+  padding: 20px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+}
+
+/* Headings */
+.venue-box h2,
+.faq-box h2 {
+  margin-bottom: 15px;
+}
+
+/* .venue-box h2,
+.faq-box h2 {
+  margin-bottom: 15px;
+  color: #1e293b;
+} */
+
+/* Venue text */
+.venue-box p {
+  margin-bottom: 8px;
+  color: #475569;
+}
+
+/* Highlight venue name */
+.venue-box strong {
+  color: #2563eb;
+}
+
+/* FAQ items */
+.faq-item {
+  padding: 5px;
+  /* margin-bottom: 10px; */
+  background-color: #f1f5f9;
+  border-radius: 6px;
+}
+/* .faq-item1 {
+  padding: 10px;
+  /* margin-bottom: 2px; 
+  background-color: #f1f5f9;
+  border-radius: 6px;
+} */
+
+/* Question */
+.faq-item h4 {
+  margin-bottom: 5px;
+}
+/* .faq-item h4 {
+  margin-bottom: 5px;
+  color: #0f172a;
+} */
+
+/* Answer */
+.faq-item p {
+  font-size: 14px;
+  color: #475569;
+}
 /* AI made secs ends */
 
 /* footer the end */
@@ -304,7 +388,17 @@ ul {
 .copy {
   /* align-content:end;   
     margin-left: auto; */
-  font-size: large;
-  color: white;
+  font-size: small;
+  color: lightgray;
   margin-top: 20px;
+}
+
+.privacy-sec {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+  margin-top: -14px;
+  margin-right: 5px;
+  font-size: small;
+  color: lightgray;
 }
