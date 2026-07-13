@@ -6,7 +6,7 @@ nav {
 * {
   margin: 0;
   padding: 0;
-  font-family: serif;
+  font-family: 'open sans', sans-serif;
 }
 
 .container {
@@ -85,13 +85,13 @@ nav {
   margin-bottom: 20px;
 }
 
-.dp {
+.banner-p {
   color: #ffffff;
-  max-width: 700px;
+  /* max-width: 700px; */
   margin-bottom: 25px;
 }
 .head {
-  margin-top: 120px;
+  margin-top: 100px;
 }
 /* banner section ends */
 
@@ -138,9 +138,10 @@ nav {
   margin-bottom: 4px;
 }
 .designation {
-  font-size: 12px;
+  font-size: 14px;
   color: rgb(142, 137, 137);
   margin-top: 4px;
+  font-weight: 600;
   /* font-weight: 600; */
 }
 /* speakers section ends */
@@ -363,17 +364,17 @@ ul {
   margin-top: 50px;
 }
 
-.he {
+.icon {
   color: white;
   margin-top: 20px;
 }
 
-.hed {
+.touch-header {
   margin-top: 8px;
   color: white;
 }
 
-.fo-po {
+.main-footer {
   display: flex;
   gap: 50px;
   /* display: flex; */
@@ -381,7 +382,7 @@ ul {
   margin-left: 350px;
 }
 
-.to {
+.touch-link {
   margin-left: 120px;
 }
 
@@ -390,14 +391,14 @@ ul {
     margin-left: auto; */
   font-size: small;
   color: lightgray;
-  margin-top: 20px;
+  margin-top: 12px;
 }
 
 .privacy-sec {
   display: flex;
   justify-content: end;
   gap: 10px;
-  margin-top: -14px;
+  margin-top: -20px;
   margin-right: 5px;
   font-size: small;
   color: lightgray;
